@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+$body-bg: #f8f8f8;
+$primary: #0a7295;
+$secondary: #ebebeb;
+$link: #b4b4b4;
+
+$border-radius-lg: 1rem;
+$border-radius: 0.6rem;
+
+
+
+@import "globals";
+@import "~bootstrap/scss/bootstrap";
+@import "login";
+@import "general";
+@import "navbar";

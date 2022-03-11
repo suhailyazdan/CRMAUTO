@@ -9,5 +9,28 @@
 
 .loginBox{
   width: 100%;
-  margin-top: 30%;
+  margin-top: 5%;
+}
+
+.logoBox{
+  text-align: center;
+  h3{
+    font-size: 1.7rem;
+  }
+  img{
+    width: 50%;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .logoBox{
+    text-align: center;
+    h3{
+      font-size: 2rem;
+    }
+    img{
+      width: 80%;
+    }
+  }
 }

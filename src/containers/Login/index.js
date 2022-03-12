@@ -5,10 +5,10 @@ import crmautoLogo from '../../images/crmautoLogo.svg'
 const Login = () => {
   return (
     <div className='container-fluid vh-100 loginScreen'>
-      <div className='d-flex justify-content-center justify-content-md-end'>
-        <div className='logoBox mt-2 me-0 mt-md-5 me-md-5'>
+      <div className='d-flex justify-content-center justify-content-md-start'>
+        <div className='logoBox mt-2 me-0 mt-md-5 ms-md-5'>
           <img src={crmautoLogo} width="150" alt="CRMAUTO Logo" />
-          <h3>CRMAUTO</h3>
+          <h3 className='mt-3'>CRMAUTO</h3>
         </div>
       </div>
 
@@ -27,7 +27,7 @@ const Login = () => {
                   <input type="password" className="form-control" id="exampleInputPassword1" />
                 </div>
 
-                <div className='row mt-5'>
+                <div className='row mt-4'>
                   <div className='col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3'>
                     <Link to="/crmadmin" className="btn btn-primary w-100">CRM Admin</Link>
                   </div>

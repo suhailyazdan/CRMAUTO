@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, {useState} from 'react'
 import { FaBars } from 'react-icons/fa';
 // import logo from '../../images/crmautoLogo.png'
 import logo from '../../../images/crmautoLogo.png'
@@ -6,11 +6,6 @@ import { Link } from 'react-router-dom'
 
 const NavbarMobile = () => {
   const [btnClicked, setBtnClicked] = useState(false)
-
-  useEffect(()=>{
-    console.log("btnClicked", btnClicked)
-  }, [])
-  
     
   return (
     <div className='navbarMobile d-flex align-items-center justify-content-start'>

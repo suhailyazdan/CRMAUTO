@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaDiscourse, FaBuffer, FaBatteryThreeQuarters } from 'react-icons/fa';
+import { FaDiscourse, FaBuffer} from 'react-icons/fa';
 import { BsArrowClockwise } from 'react-icons/bs'
 import { IconContext } from "react-icons";
 

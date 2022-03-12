@@ -1,7 +1,7 @@
 .contentCard{
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 10px;
-  padding: 15px 20px;
+  padding: 20px 30px;
 }
 
 .statusCircle{
@@ -13,4 +13,12 @@
   justify-content: center;
   align-items: center;
   color: #fff;
+}
+
+.memberPhoto{
+  width: 150px;
+  height: 150px;
+  background: grey;
+  border: 1px solid #0a7295;
+  border-radius: 1rem;
 }

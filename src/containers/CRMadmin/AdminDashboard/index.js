@@ -43,7 +43,7 @@ const AdminDashboard = () => {
                   <IconContext.Provider value={{ size: "60%", color: "red" }}>
                     <FaDiscourse />
                   </IconContext.Provider>
-                  <h5 className='text-center'>New Requests</h5>
+                  <h5 className='text-center'>Requests</h5>
                 </div>
               </div>
               <div className='col-6'>
@@ -87,7 +87,7 @@ const AdminDashboard = () => {
                   <IconContext.Provider value={{ size: "60%", color: "red" }}>
                     <BsArrowClockwise />
                   </IconContext.Provider>
-                  <h5 className='text-center'>In Progress</h5>
+                  <h5 className='text-center'>Progress</h5>
                 </div>
               </div>
               <div className='col-6'>
@@ -106,108 +106,112 @@ const AdminDashboard = () => {
         <div className='col-6'>
           <h4>Tasks In Progress</h4>
           <div className='contentCard mx-2' style={{height: "400px", overflowY: "auto"}}>
-            <table className="table table-hover table-sm">
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">customer</th>
-                  <th scope="col">task No.</th>
-                  <th scope="col">details</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>23456</td>
-                  <td>Replace the tyre</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>25165</td>
-                  <td>Full body wash</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Robinson</td>
-                  <td>44356</td>
-                  <td>Fix the Engine</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>23456</td>
-                  <td>Replace the tyre</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>25165</td>
-                  <td>Full body wash</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Robinson</td>
-                  <td>44356</td>
-                  <td>Fix the Engine</td>
-                </tr>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>23456</td>
-                  <td>Replace the tyre</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>25165</td>
-                  <td>Full body wash</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Robinson</td>
-                  <td>44356</td>
-                  <td>Fix the Engine</td>
-                </tr>
-              </tbody>
-            </table>         
+            <div className='m-3'>
+              <table className="table table-hover table-sm">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">customer</th>
+                    <th scope="col">task No.</th>
+                    <th scope="col">details</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>23456</td>
+                    <td>Replace the tyre</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>25165</td>
+                    <td>Full body wash</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Robinson</td>
+                    <td>44356</td>
+                    <td>Fix the Engine</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>23456</td>
+                    <td>Replace the tyre</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>25165</td>
+                    <td>Full body wash</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Robinson</td>
+                    <td>44356</td>
+                    <td>Fix the Engine</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>23456</td>
+                    <td>Replace the tyre</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>25165</td>
+                    <td>Full body wash</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Robinson</td>
+                    <td>44356</td>
+                    <td>Fix the Engine</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
 
         <div className='col-6'>
           <h4>New Requests</h4>
           <div className='contentCard mx-2' style={{height: "400px"}}>
-            <table className="table table-hover table-sm">
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">customer</th>
-                  <th scope="col">task No.</th>
-                  <th scope="col">details</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>23456</td>
-                  <td>Replace the tyre</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>25165</td>
-                  <td>Full body wash</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Robinson</td>
-                  <td>44356</td>
-                  <td>Fix the Engine</td>
-                </tr>
-              </tbody>
-            </table>
+            <div className='m-3'>
+              <table className="table table-hover table-sm">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">customer</th>
+                    <th scope="col">task No.</th>
+                    <th scope="col">details</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>23456</td>
+                    <td>Replace the tyre</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>25165</td>
+                    <td>Full body wash</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Robinson</td>
+                    <td>44356</td>
+                    <td>Fix the Engine</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>

@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import { FaBars } from 'react-icons/fa';
-// import logo from '../../images/crmautoLogo.png'
 import logo from '../../../images/crmautoLogo.png'
 import { Link } from 'react-router-dom'
 

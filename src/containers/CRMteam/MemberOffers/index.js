@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import Tabs from 'react-bootstrap/Tabs'
 import Tab from 'react-bootstrap/Tab'
 // import { FaEdit} from 'react-icons/fa';
-import profilePhoto from '../../../images/profileImage.jpg'
 
 const MemberOffers = () => {
   let [edit, setEdit] = useState(false)

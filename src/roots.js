@@ -13,6 +13,10 @@ import MemberTasks from './containers/CRMteam/MemberTasks'
 import MemberCustomers from './containers/CRMteam/MemberCustomers'
 import MemberOffers from './containers/CRMteam/MemberOffers'
 import MemberProfile from './containers/CRMteam/MemberProfile'
+import CustomerDashboard from './containers/Customer/CustomerDashboard'
+import CustomerRequest from './containers/Customer/CustomerRequest'
+import CustomerOffers from './containers/Customer/Customer Offers'
+import CustomerAccount from './containers/Customer/CustomerAccount'
 
 
 const Roots = () => {
@@ -38,12 +42,11 @@ const Roots = () => {
         </Route>
 
         <Route path="/customer" element = {<Customer />}>
-          <Route path="/customer/" />
-          <Route path="/customer/sr-request" />
-          <Route path="/customer/offers" />
-          <Route path="/customer/account" />
+          <Route path="/customer/" element = {<CustomerDashboard />} />
+          <Route path="/customer/sr-request" element = {<CustomerRequest />} />
+          <Route path="/customer/offers" element = {<CustomerOffers />} />
+          <Route path="/customer/account" element = {<CustomerAccount />} />
         </Route>
-
       </Routes>
     </>
   )

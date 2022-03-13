@@ -113,7 +113,7 @@ const AdminTeam = () => {
         <div className='col-6'>
           <h4>View, Edit &amp; Join New Member</h4>
           <div className='contentCard mx-2' style={{height: "100vh", overflowY: "auto"}}>
-          <div className='m-4'>
+            <div className='m-4'>
               <Tabs defaultActiveKey="View" id="uncontrolled-tab-example" className="mb-3">
                 <Tab eventKey="View" title="View">
                   <div className='row'>
@@ -257,7 +257,7 @@ const AdminTeam = () => {
                   }
                 </Tab>
 
-                <Tab eventKey="Register" title="Register">
+                <Tab eventKey="Join" title="Join">
                   <div className='row'>
                     <div className='col-4'>
                       <div className='photoBox'>
@@ -267,7 +267,7 @@ const AdminTeam = () => {
 
                     <div className='col-8'>
                       <div className='d-flex align-items-end justify-content-end h-100'>
-                        <button type="button" className="btn btn-sm btn-primary ms-2">Register Customer</button>
+                        <button type="button" className="btn btn-sm btn-primary ms-2">Join New Member</button>
                       </div>
                     </div>
                   </div>

@@ -1,32 +1,32 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className='navbar'>  
-        <Link to="/crmadmin/" className='navItem mb-4'>
+    <div className='navbar'> 
+        <NavLink to="/customer/" className={`navItem mb-4 ${(navData) => (navData.isActive ? 'active' : '')}`}>
           <div className='title'>Dashboard</div>
 
           <div className='iconCircle ms-auto me-2 d-none d-lg-block'></div>
-        </Link>
+        </NavLink>
 
-        <Link to="/crmadmin/tasks" className='navItem mb-4'>
+        <NavLink to="/customer/sr-request" className={`navItem mb-4 ${(navData) => (navData.isActive ? 'active' : '')}`}>
           <div className='title'>Service Request</div>
           
           <div className='iconCircle ms-auto me-2 d-none d-lg-block' ></div>
-        </Link>
+        </NavLink>
 
-        <Link to="/crmadmin/customers" className='navItem mb-4'>
+        <NavLink to="/customer/offers" className={`navItem mb-4 ${(navData) => (navData.isActive ? 'active' : '')}`}>
           <div className='title'>Offers</div>
         
           <div className='iconCircle ms-auto me-2 d-none d-lg-block'></div>
-        </Link>
+        </NavLink>
 
-        <Link to="/crmadmin/team" className='navItem mb-4'>
+        <NavLink to="/customer/account" className={`navItem mb-4 ${(navData) => (navData.isActive ? 'active' : '')}`}>
           <div className='title'>Account</div>
           
           <div className='iconCircle ms-auto me-2 d-none d-lg-block'></div>
-        </Link>
+        </NavLink>
     </div>
   )
 }

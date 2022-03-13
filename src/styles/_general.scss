@@ -15,10 +15,14 @@
   color: #fff;
 }
 
-.memberPhoto{
-  width: 150px;
-  height: 150px;
+.photoBox{
+  width: 100px;
+  height: 100px;
   background: grey;
   border: 1px solid #0a7295;
   border-radius: 1rem;
+  overflow: hidden;
+  img{
+    width: 100px;
+  }
 }

@@ -4,7 +4,7 @@ import Tab from 'react-bootstrap/Tab'
 // import { FaEdit} from 'react-icons/fa';
 import profilePhoto from '../../../images/profileImage.jpg'
 
-const AdminCustomers = () => {
+const MemberCustomers = () => {
   let [edit, setEdit] = useState(false)
 
   return (
@@ -385,4 +385,4 @@ const AdminCustomers = () => {
   )
 }
 
-export default AdminCustomers
+export default MemberCustomers
